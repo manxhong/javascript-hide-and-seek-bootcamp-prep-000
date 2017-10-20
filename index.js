@@ -10,7 +10,7 @@ function deepestChild(){
   var lis = document.getElementById('app').querySelectorAll('#grand-node div');
 
   for (var i = 0; i < lis.length; i++) {
-    if (i===lis.length) {
+    if (i === lis.length) {
       return lis[i].innerHTML;
     }
   }
