@@ -11,4 +11,6 @@ function deepestChild(){
   return lis[lis.length-1];
 }
 
-nestedTarget();
+function increaseRankBy(n){
+  const lis = document.querySelectorAll('.ranked-list');
+}
