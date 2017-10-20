@@ -11,8 +11,7 @@ function deepestChild(){
 
   for (var i = 0; i < lis.length; i++) {
     if (i===lis.length) {
-      console.log(lis[i]);
-      return lis[i];
+      return lis[i].innerHTML;
     }
   }
 }
