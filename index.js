@@ -8,12 +8,7 @@ function nestedTarget(){
 
 function deepestChild(){
   const lis = document.getElementById('app').querySelectorAll('#grand-node div');
-
-  for (var i = 0; i < lis.length; i++) {
-    if (i === lis.length) {
-      return lis[i-1].innerHTML;
-    }
-  }
+  return lis[lis.length-1].innerHTML;
 }
 
 nestedTarget();
